@@ -17,7 +17,7 @@ export default function ImageUpload({image} : {image: string | undefined}) {
                     setImageUrl(result.info?.secure_url)
                 }
             }}
-            uploadPreset='utgx56zx'
+            uploadPreset='ml_default'
             options={{
                 maxFiles: 1
             }}
